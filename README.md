@@ -106,6 +106,5 @@ _For educational use only. This project does not provide actual medical advice. 
 
 - **GROQ** – Fast LLM and Vision model serving  
 - **ElevenLabs** – Human-like voice generation  
-Gradio – Easy UI for ML apps
-
-Google TTS – Fallback voice support
+- Gradio – Easy UI for ML apps
+- Google TTS – Fallback voice support
