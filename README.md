@@ -108,3 +108,8 @@ _For educational use only. This project does not provide actual medical advice. 
 - **ElevenLabs** – Human-like voice generation  
 - Gradio – Easy UI for ML apps
 - Google TTS – Fallback voice support
+
+---
+
+## Contact Us
+- Email -: anandambastha72@gmail.com
