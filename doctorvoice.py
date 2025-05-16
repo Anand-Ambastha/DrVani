@@ -1,8 +1,8 @@
-# if you dont use pipenv uncomment the following
+
 from dotenv import load_dotenv # type: ignore
 load_dotenv()
 
-#Step1a: Setup Text to Speech–TTS–model with gTTS
+
 import os
 from gtts import gTTS # type: ignore
 
@@ -20,7 +20,7 @@ def text_to_speech_with_gtts_old(input_text, output_filepath):
 input_text="Hi this is Ai with Hassan!"
 text_to_speech_with_gtts_old(input_text=input_text, output_filepath="gtts_testing.mp3")
 
-#Step1b: Setup Text to Speech–TTS–model with ElevenLabs
+
 import elevenlabs # type: ignore
 from elevenlabs.client import ElevenLabs # type: ignore
 
