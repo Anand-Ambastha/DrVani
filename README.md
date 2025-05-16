@@ -36,14 +36,14 @@
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/drvani.git
+git clone https://github.com/Anand-Ambastha/DrVani.git
 cd drvani
 ```
 
 ### 2️⃣ Install Python Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt.txt
 ```
 
 ⚠️ **You must have both ffmpeg and portaudio installed on your system.**
