@@ -1,9 +1,7 @@
-# if you dont use pipenv uncomment the following:
+
 from dotenv import load_dotenv
 load_dotenv()
 
-#Step1: Setup Audio recorder (ffmpeg & portaudio)
-#ffmpeg, portaudio, pyaudio
 import logging
 import speech_recognition as sr
 import ffmpeg
@@ -29,11 +27,11 @@ def record_audio(file_path, timeout=20, phrase_time_limit=None):
             recognizer.adjust_for_ambient_noise(source, duration=1)
             logging.info("Start speaking now...")
             
-            # Record the audio
+           
             audio_data = recognizer.listen(source, timeout=timeout, phrase_time_limit=phrase_time_limit)
             logging.info("Recording complete.")
             
-            # Convert the recorded audio to an MP3 file
+           
             wav_data = audio_data.get_wav_data()
             audio_segment = AudioSegment.from_wav(BytesIO(wav_data))
             audio_segment.export(file_path, format="mp3", bitrate="128k")
@@ -45,7 +43,7 @@ def record_audio(file_path, timeout=20, phrase_time_limit=None):
 
 
 
-#Step2: Setup Speech to text–STT–model for transcription
+
 import os
 from groq import Groq
 
