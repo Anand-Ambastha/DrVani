@@ -37,7 +37,7 @@
 
 ```bash
 git clone https://github.com/Anand-Ambastha/DrVani.git
-cd drvani
+cd DrVani
 ```
 
 ### 2️⃣ Install Python Dependencies
