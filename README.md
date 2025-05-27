@@ -43,7 +43,7 @@ cd DrVani
 ### 2️⃣ Install Python Dependencies
 
 ```bash
-pip install -r requirements.txt.txt
+pip install -r requirements.txt
 ```
 
 ⚠️ **You must have both ffmpeg and portaudio installed on your system.**
